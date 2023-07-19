@@ -1,0 +1,5 @@
+Basketball<>Leonardo T<>Deporte<>None<>2002<>
+Gato<>Delwin Padilla<>Animal<>None<>2019<>
+Guacamaya<>Leonardo T<>Ave<>None<>2018<>
+juanitomelito<>juanito<>uff<>None<>2019<>
+Perro<>Juan Ochoa<>Animal<>None<>2017<>

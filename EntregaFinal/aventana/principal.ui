@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>907</width>
+    <height>603</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>291</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#005500;&quot;&gt;Bienvenido a tu&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#005500;&quot;&gt;reproductor &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#005500;&quot;&gt;multimedia&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="galeria">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>181</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Galeria</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="musica">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>151</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Música</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="videos">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Videos</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="menu_foto" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>1</y>
+      <width>321</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="agregar_f">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>161</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Agregar Foto</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="tomar_f">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Tomar Foto</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ver_f">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>321</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ver foto</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="menu_video" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>1</y>
+      <width>321</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="agregar_v">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>161</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Agregar Video</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="tomar_v">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Tomar Video</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ver_v">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>321</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ver Video</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="menu_musica" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>1</y>
+      <width>321</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <widget class="QPushButton" name="reproducir_c">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>321</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Reproducir</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="listasdereproduccion">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Listas de reproducción</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="agregar_c">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>161</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Agregar Canción</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QListWidget" name="lista">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>220</y>
+      <width>691</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft Yi Baiti</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectItems</enum>
+    </property>
+    <property name="layoutMode">
+     <enum>QListView::SinglePass</enum>
+    </property>
+    <property name="modelColumn">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="borrar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>550</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Borrar</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="t_orden">
+    <property name="geometry">
+     <rect>
+      <x>691</x>
+      <y>221</y>
+      <width>120</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Ordenar por:</string>
+    </property>
+    <widget class="QRadioButton" name="orden_n">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>31</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nombre</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="orden_ar">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>61</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Artista</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="orden_al">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>91</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Album</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="orden_g">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>121</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Genero</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="orden_an">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>151</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Año</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="ordenar">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>400</y>
+      <width>122</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ordenar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fotito">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>0</y>
+      <width>321</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#005500;&quot;&gt;Previsualizador de &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#005500;&quot;&gt;imagenes&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="previsualizador">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>180</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Previsualizar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="renombrar_l">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>100</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Renombrar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="agregar_l">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>160</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar Lista De Reproduccion</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="agregar_cl">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>100</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar Cancion A La Lista</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="eliminar_cl">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>160</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Eliminar Cancion De La Lista</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="edit_name" native="true">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>50</y>
+      <width>321</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>259</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Escriba el nuevo nombre</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="new_name">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>259</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ok_renombrar">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>0</y>
+       <width>61</width>
+       <height>54</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="aviso">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>560</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;PARA ESTA ACCIÓN POR FAVOR SELECCIONE ALGUN ITEM DE LA LISTA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>eliminar_cl</zorder>
+   <zorder>agregar_cl</zorder>
+   <zorder>label</zorder>
+   <zorder>galeria</zorder>
+   <zorder>musica</zorder>
+   <zorder>videos</zorder>
+   <zorder>menu_foto</zorder>
+   <zorder>menu_video</zorder>
+   <zorder>menu_musica</zorder>
+   <zorder>lista</zorder>
+   <zorder>borrar</zorder>
+   <zorder>t_orden</zorder>
+   <zorder>ordenar</zorder>
+   <zorder>fotito</zorder>
+   <zorder>previsualizador</zorder>
+   <zorder>renombrar_l</zorder>
+   <zorder>agregar_l</zorder>
+   <zorder>edit_name</zorder>
+   <zorder>aviso</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

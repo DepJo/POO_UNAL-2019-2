@@ -1,0 +1,5 @@
+Edificio<>Mono<>apple<>None<>2014<>
+Gato<>Majo<>google<>None<>2018<>
+guacamaya<>Apple<>amazonas<>None<>2017<>
+Perro<>Delwin<>mac<>None<>2019<>
+pinata-parranda<>Delwin<>prueba<>None<>2019<>
